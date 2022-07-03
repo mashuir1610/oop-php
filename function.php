@@ -6,7 +6,7 @@ class Shuvo
 	private $conn;
 	public function __construct()
 	{
-		$this->conn = new PDO("mysql:host=localhost;dbname=nusu",'root','');
+		$this->conn = new PDO("mysql:host=localhost;dbname=customer",'root','');
 	}
 
 	public function getColumns($table)
